@@ -1,15 +1,6 @@
 # optimized_local_llm_hmi.py
 # -*- coding: utf-8 -*-
 """
-優化版 Local LLM HMI（PySide6 單檔 Demo）
-改進：
-- Enter 送出、Shift+Enter 換行、常用快捷鍵
-- 現代化暗色主題、動畫與更佳視覺層次
-- 拖放與貼上圖片成附件、即時回饋
-- 更完整的錯誤處理與提示
-- 響應式佈局 + 進度條 + 匯出/批次匯出
-- Prompt Engineering 範本（Zero-Shot / Few-Shot / CoT / 結構化JSON）
-
 後端串流目前為示範，請在 StreamWorker.run() 內替換為實際 llama.cpp/Ollama 串流。
 Run:
     pip install PySide6
